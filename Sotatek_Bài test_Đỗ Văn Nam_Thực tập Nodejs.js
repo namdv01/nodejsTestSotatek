@@ -29,6 +29,10 @@ const chonChuoiNhoNhat = (str) => {
       };
     }
   }
+  return {
+    so: str[str.length - 1],
+    vitri: str.length - 1,
+  };
 };
 
 // console.log(chonChuoiNhoNhat("231823625288"));
